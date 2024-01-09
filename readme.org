@@ -7,4 +7,4 @@
 Clone this repository, build with =gcc -O3 batman.c -o batman.exe= and run!
 
 - You can set up the delay by modifying =#define INTERVAL <millis>=.
-- If you want to run it in the background, add =powershell -NoLogo -NoProfile -Command "Start-Process path/to/repo/batman.exe -WindowStyle Hidden"= as a script at =shell:startup=.
+- If you want to run it in the background, add =powershell -NoLogo -NoProfile -Command Start-Process path/to/repo/batman.exe -WindowStyle Hidden= as a script at =shell:startup=.
